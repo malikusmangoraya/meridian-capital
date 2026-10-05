@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://meridian-capital.com/sitemap.xml
+Sitemap: https://malikusmangoraya.github.io/meridian-capital/sitemap.xml
