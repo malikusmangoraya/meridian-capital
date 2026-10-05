@@ -1,0 +1,64 @@
+{
+  "events": [
+    {
+      "event": "user.registered",
+      "source": "internal",
+      "description": "New user registration"
+    },
+    {
+      "event": "contact.submitted",
+      "source": "internal",
+      "description": "Contact form submitted"
+    },
+    {
+      "event": "payment.received",
+      "source": "stripe",
+      "description": "Payment received"
+    },
+    {
+      "event": "newsletter.subscribed",
+      "source": "internal",
+      "description": "Newsletter signup"
+    },
+    {
+      "event": "order.created",
+      "source": "lemonsqueezy",
+      "description": "Order paid — fulfillment unlocks"
+    },
+    {
+      "event": "order.refunded",
+      "source": "lemonsqueezy",
+      "description": "Order refunded by the merchant of record"
+    },
+    {
+      "event": "subscription.created",
+      "source": "lemonsqueezy",
+      "description": "New subscription (recurring plan)"
+    },
+    {
+      "event": "subscription.updated",
+      "source": "lemonsqueezy",
+      "description": "Subscription plan or status changed"
+    },
+    {
+      "event": "subscription.cancelled",
+      "source": "lemonsqueezy",
+      "description": "Subscription cancelled"
+    },
+    {
+      "event": "license.created",
+      "source": "lemonsqueezy",
+      "description": "License key issued to the buyer"
+    }
+  ],
+  "integrations": [
+    "slack",
+    "discord",
+    "mailchimp",
+    "zapier",
+    "n8n",
+    "make",
+    "stripe",
+    "lemonsqueezy"
+  ]
+}
